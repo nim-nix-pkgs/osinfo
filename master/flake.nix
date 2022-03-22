@@ -10,7 +10,7 @@
   inputs.src-osinfo-master.flake = false;
   inputs.src-osinfo-master.ref   = "refs/heads/master";
   inputs.src-osinfo-master.owner = "nim-lang";
-  inputs.src-osinfo-master.repo  = "osinfo.git";
+  inputs.src-osinfo-master.repo  = "osinfo";
   inputs.src-osinfo-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
