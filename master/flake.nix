@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-osinfo-master.flake = false;
+  inputs.src-osinfo-master.ref   = "refs/heads/master";
   inputs.src-osinfo-master.owner = "nim-lang";
-  inputs.src-osinfo-master.ref   = "master";
   inputs.src-osinfo-master.repo  = "osinfo.git";
   inputs.src-osinfo-master.type  = "github";
   
