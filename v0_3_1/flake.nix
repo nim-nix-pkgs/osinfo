@@ -11,7 +11,6 @@
   inputs.src-osinfo-v0_3_1.ref   = "refs/tags/v0.3.1";
   inputs.src-osinfo-v0_3_1.owner = "nim-lang";
   inputs.src-osinfo-v0_3_1.repo  = "osinfo";
-  inputs.src-osinfo-v0_3_1.dir   = "";
   inputs.src-osinfo-v0_3_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
